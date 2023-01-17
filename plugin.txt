@@ -1,4 +1,4 @@
-VARIABLE template_microservice_name TEMPLATE__MICROSERVICE
+VARIABLE template_microservice_name TEMPLATE
 
 MICROSERVICE TEMPLATE <%= template_microservice_name %>
   WORK_DIR .
