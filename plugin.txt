@@ -1,0 +1,5 @@
+VARIABLE template_microservice_name TEMPLATE__MICROSERVICE
+
+MICROSERVICE TEMPLATE <%= template_microservice_name %>
+  WORK_DIR .
+  CMD ruby template_microservice.rb
